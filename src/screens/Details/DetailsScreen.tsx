@@ -7,9 +7,6 @@ export function DetailsScreen() {
     return (
         <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
             <Text>Details Screen</Text>
-            <Button title={'Jump to Users screen'} onPress={() => {
-                navigation.navigate('Users', {id: 1000, name: 'Serega', isDone: false})
-            }}/>
         </View>
     );
 }
